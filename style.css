@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#puzzle {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+}
+
+.start {
+    margin-top: 25px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(47, 166, 245);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.solve {
+    margin-top: 25px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(247, 153, 2);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tile {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4caf50;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.empty {
+    background-color: #f0f0f0;
+    cursor: default;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+.clock {
+    text-align: center;
+    width: 150px;
+    height: 20px;
+}
+
+.counter {
+    text-align: center;
+    width: 150px;
+    height: 20px;
+}
